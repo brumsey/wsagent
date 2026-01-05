@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
+    <url>
+        <loc>https://plumbersnearmefl.com/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Tier 1 Critical Pages -->
+    <url>
+        <loc>https://plumbersnearmefl.com/emergency-plumber-clearwater-fl.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://plumbersnearmefl.com/leak-detection-repair-clearwater-fl.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://plumbersnearmefl.com/water-heater-repair-clearwater-fl.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://plumbersnearmefl.com/tankless-water-heater-installation-clearwater-fl.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://plumbersnearmefl.com/gas-line-installation-clearwater-fl.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://plumbersnearmefl.com/kitchen-plumbing-clearwater-fl.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://plumbersnearmefl.com/bathroom-plumbing-clearwater-fl.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://plumbersnearmefl.com/drain-cleaning-clearwater-fl.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- About Page -->
+    <url>
+        <loc>https://plumbersnearmefl.com/about.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>
