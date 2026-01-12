@@ -1,0 +1,177 @@
+#!/bin/bash
+
+# This script creates all 6 service pages for Plumbsimple website
+
+cd /home/groot/projects/wsagent/plumbsimple-website
+
+# Create Emergency Plumber page
+cat > emergency-plumber-redington-beach-fl.html << 'EOF'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>24/7 Emergency Plumber Redington Beach FL | Same-Day Service | Plumbsimple</title>
+  <meta name="description" content="Emergency plumber Redington Beach FL available 24/7. Burst pipes, flooding, no hot water. Fast response. Licensed & insured. Call (727) 766-5421 now.">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "24/7 Emergency Plumbing",
+    "provider": {
+      "@type": "Plumber",
+      "name": "Plumbsimple",
+      "telephone": "(727) 766-5421"
+    },
+    "areaServed": "Redington Beach, FL",
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "servicePhone": {
+        "@type": "ContactPoint",
+        "telephone": "(727) 766-5421",
+        "contactType": "Emergency",
+        "availableLanguage": "English",
+        "hoursAvailable": "Mo-Su 00:00-23:59"
+      }
+    }
+  }
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-to-main">Skip to main content</a>
+  <header class="header">
+    <div class="header-container">
+      <div class="logo"><a href="index.html">PLUMB<span>SIMPLE</span></a></div>
+      <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+      <nav>
+        <ul class="nav-menu">
+          <li class="dropdown"><a href="#" class="dropdown-toggle">Services</a>
+            <ul class="dropdown-menu">
+              <li><a href="emergency-plumber-redington-beach-fl.html">24/7 Emergency Plumbing</a></li>
+              <li><a href="water-heater-repair-redington-beach-fl.html">Water Heater Services</a></li>
+              <li><a href="drain-cleaning-sewer-redington-beach-fl.html">Drain & Sewer Services</a></li>
+              <li><a href="leak-detection-repair-redington-beach-fl.html">Leak Detection & Repair</a></li>
+              <li><a href="toilet-repair-installation-redington-beach-fl.html">Toilet Services</a></li>
+              <li><a href="faucet-sink-repair-redington-beach-fl.html">Faucet & Sink Services</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#" class="dropdown-toggle">Service Areas</a>
+            <ul class="dropdown-menu">
+              <li><a href="redington-beach-fl-plumber.html">Redington Beach</a></li>
+              <li><a href="north-redington-beach-fl-plumber.html">North Redington Beach</a></li>
+              <li><a href="redington-shores-fl-plumber.html">Redington Shores</a></li>
+              <li><a href="madeira-beach-fl-plumber.html">Madeira Beach</a></li>
+              <li><a href="treasure-island-fl-plumber.html">Treasure Island</a></li>
+              <li><a href="service-areas.html">View All Areas</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="tel:7277665421" class="nav-phone">(727) 766-5421</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="emergency-callout" style="padding: 80px 0;">
+    <div class="container text-center">
+      <h1 style="color: white; font-size: 48px; margin-bottom: 16px;">PLUMBING EMERGENCY?</h1>
+      <h2 style="color: white; font-size: 32px; font-weight: normal; margin-bottom: 24px;">We're Available 24/7 in Redington Beach</h2>
+      <p style="font-size: 20px; margin-bottom: 32px;">Burst Pipes | Flooding | No Hot Water | Sewer Backups | Gas Leaks</p>
+      <a href="tel:7277665421" class="btn btn-large" style="background: white; color: #DC143C; font-size: 24px;">CALL NOW: (727) 766-5421</a>
+      <p style="margin-top: 24px; font-size: 16px;"><span class="available-badge">Available Now</span> - Average Response Time: 30-60 Minutes</p>
+    </div>
+  </section>
+  <main id="main-content">
+    <section class="section">
+      <div class="container">
+        <div class="content-with-sidebar">
+          <div>
+            <h2>24/7 Emergency Plumber Redington Beach FL</h2>
+            <p>When a plumbing emergency strikes your Redington Beach home or business, you need a local plumber who answers immediately and arrives fast. Plumbsimple is your 24/7/365 emergency plumbing specialist serving Redington Beach and all surrounding beach communities. We don't use answering services—when you call, a licensed plumber picks up the phone and dispatches help to your location right away.</p>
+            <h3>Emergency Plumbing Situations We Handle</h3>
+            <h4>Burst Pipes & Water Line Emergencies</h4>
+            <p>A burst pipe can flood your beach home in minutes, causing thousands of dollars in water damage. We respond immediately to shut off water, repair or replace damaged pipes, and prevent further damage. Common in older beach homes due to salt air corrosion.</p>
+            <h4>No Hot Water Emergencies</h4>
+            <p>Water heater failures don't wait for business hours. Whether it's a complete breakdown, gas leak, or flooding tank, we provide emergency water heater repair or same-day replacement to restore hot water to your home.</p>
+            <h4>Severe Drain Clogs & Sewer Backups</h4>
+            <p>When sewage backs up into your home, it's a health hazard that requires immediate professional attention. We arrive with hydro jetting equipment and sewer cameras to clear blockages and diagnose underlying issues.</p>
+            <h4>Flooding & Water Damage Prevention</h4>
+            <p>Active flooding requires immediate response. We locate the source, shut off water supply, make emergency repairs, and help minimize water damage to your property.</p>
+            <h4>Gas Line Emergencies</h4>
+            <p>If you smell gas, evacuate immediately and call 911, then call us. We provide emergency gas line repairs, leak detection, and safety inspections to protect your family.</p>
+            <h4>Emergency Toilet & Fixture Failures</h4>
+            <p>Overflowing toilets, broken fixtures, and plumbing failures that make your bathroom or kitchen unusable get same-day emergency service.</p>
+            <h3>Why Choose Plumbsimple for Emergency Plumbing?</h3>
+            <ul class="checkmark-list">
+              <li>True 24/7/365 availability—we answer calls at 2 AM on Christmas</li>
+              <li>Average 30-60 minute response time from local Redington Beach base</li>
+              <li>Licensed plumbers answer phones, not answering services</li>
+              <li>Fully-stocked trucks for first-visit emergency repairs</li>
+              <li>Upfront emergency pricing—no hidden fees or surprise charges</li>
+              <li>Beach property expertise for coastal plumbing challenges</li>
+              <li>Licensed, bonded, and fully insured for your protection</li>
+              <li>No extra charges for nights, weekends, or holidays</li>
+            </ul>
+            <h3>What to Expect When You Call</h3>
+            <p><strong>Step 1: Immediate Answer</strong> - A licensed plumber answers your emergency call within seconds. No recordings, no callbacks.</p>
+            <p><strong>Step 2: Assessment & Guidance</strong> - We assess your emergency over the phone and provide immediate guidance to minimize damage (like shutting off water).</p>
+            <p><strong>Step 3: Rapid Dispatch</strong> - A fully-equipped technician is dispatched to your Redington Beach location immediately.</p>
+            <p><strong>Step 4: Fast Arrival</strong> - Our local presence means 30-60 minute typical response times to beach communities.</p>
+            <p><strong>Step 5: Expert Repair</strong> - We diagnose the issue, provide upfront pricing, and complete repairs to resolve your emergency.</p>
+            <h3>Serving Redington Beach & Beach Communities</h3>
+            <p>We provide emergency plumbing throughout Redington Beach, North Redington Beach, Redington Shores, Madeira Beach, Treasure Island, and all surrounding Gulf Coast communities.</p>
+            <div style="margin: 32px 0;">
+              <h3>Emergency? Call Now</h3>
+              <a href="tel:7277665421" class="btn btn-primary btn-large">CALL: (727) 766-5421</a>
+            </div>
+          </div>
+          <aside class="sidebar">
+            <div class="sidebar-card">
+              <h3>24/7 Emergency Hotline</h3>
+              <p><span class="available-badge">Available Now</span></p>
+              <p style="font-size: 28px; font-weight: bold; color: #DC143C; margin: 16px 0;"><a href="tel:7277665421" style="color: #DC143C;">(727) 766-5421</a></p>
+              <a href="tel:7277665421" class="btn btn-primary">Call for Emergency</a>
+            </div>
+            <div class="card">
+              <h4>Emergency Services</h4>
+              <ul style="list-style: none; padding: 0; font-size: 14px;">
+                <li style="margin-bottom: 8px;">• Burst Pipes</li>
+                <li style="margin-bottom: 8px;">• Flooding</li>
+                <li style="margin-bottom: 8px;">• No Hot Water</li>
+                <li style="margin-bottom: 8px;">• Sewer Backups</li>
+                <li style="margin-bottom: 8px;">• Gas Leaks</li>
+                <li style="margin-bottom: 8px;">• Major Leaks</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h4>More Services</h4>
+              <ul style="list-style: none; padding: 0; font-size: 13px;">
+                <li><a href="water-heater-repair-redington-beach-fl.html">Water Heaters</a></li>
+                <li><a href="drain-cleaning-sewer-redington-beach-fl.html">Drain Cleaning</a></li>
+                <li><a href="leak-detection-repair-redington-beach-fl.html">Leak Detection</a></li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div><h4>Plumbsimple</h4><div class="footer-nap"><p><strong>Plumbsimple</strong></p><p>Redington Beach, FL</p><p><a href="tel:7277665421" class="footer-phone">(727) 766-5421</a></p><p>Hours: 24/7/365</p></div></div>
+        <div><h4>Services</h4><ul><li><a href="emergency-plumber-redington-beach-fl.html">Emergency Plumbing</a></li><li><a href="water-heater-repair-redington-beach-fl.html">Water Heaters</a></li><li><a href="drain-cleaning-sewer-redington-beach-fl.html">Drain & Sewer</a></li></ul></div>
+        <div><h4>Areas</h4><ul><li><a href="redington-beach-fl-plumber.html">Redington Beach</a></li><li><a href="madeira-beach-fl-plumber.html">Madeira Beach</a></li><li><a href="treasure-island-fl-plumber.html">Treasure Island</a></li></ul></div>
+        <div><h4>Company</h4><ul><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; <span class="copyright-year">2026</span> Plumbsimple. All rights reserved.</p></div>
+    </div>
+  </footer>
+  <div class="mobile-bottom-bar"><div class="actions"><a href="tel:7277665421" class="btn btn-primary">📞 Call Now</a><a href="sms:7277665421" class="btn btn-secondary">💬 Text</a></div></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
+EOF
+
+echo "Emergency plumber page created"
