@@ -1,40 +1,63 @@
-# Business Information - Able Plumbing Inc.
+# Business Information - Plumbsimple
 
-## Company Details
+## Core Business Details
 
-**Business Name:** Able Plumbing Inc.
+### Business Name
+**Plumbsimple**
 
-**Industry:** Plumbing
+### Contact Information
+- **Phone:** (727) 766-5421
+- **Address:** Redington Beach FL and Nearby areas
 
-**Website:** plumbersnearmefl.com
+### Hours of Operation
+**24/7** - Available around the clock for emergency services
 
-## Contact Information
-
-**Address:** 14445 US Hwy 19 N suite b, Clearwater, FL 33764
-
-**Phone Number:** (727) 330-2733
-
-**Hours of Operation:** 24 hours, 7 days a week
-
-## Online Presence
-
-**Google My Business Profile:** https://share.google/NP3xXMRlebLb70pw0
-
-## SEO Target Keywords
-
-- "Plumbing Repair"
-- "Plumbers near Clearwater FL"
-- "Plumber in Clearwater FL"
-- "Clearwater Plumber"
-- "Kitchen Plumbing in Clearwater FL"
-- "Bathroom Plumbing in Clearwater FL"
-- "Leak Detection and Repair Clearwater FL"
-
-## Branding
-
-**Brand Colors:** Red, White, Blue
+### Industry
+**Plumbing Services**
 
 ---
 
-*Document created: 2025-12-31*
+## Online Presence
+
+### Google My Business Profile
+https://share.google/333s9KCiTKoXrfzQM
+
+---
+
+## SEO Strategy
+
+### Target Keywords
+- plumbers near me
+- plumber
+- emergency plumber
+- water heater repair
+- best plumbers near me
+
+### Geographic Focus
+- Redington Beach, FL
+- Nearby areas in the Tampa Bay region
+
+---
+
+## Branding
+
+### Brand Colors
+- Red
+- White
+- Blue
+
+### Design Reference
+**Template/Example Website:** https://friendsplumbing.com/
+
+---
+
+## Notes
+- Business operates 24/7, emphasizing emergency availability
+- Service area covers Redington Beach and surrounding communities
+- Brand colors suggest patriotic/trustworthy theme
+- Design inspiration from Friends Plumbing website
+
+---
+
+*Document Created: 2026-01-06*
 *Workflow Step: 1 - Business Information Collection*

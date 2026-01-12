@@ -78,6 +78,7 @@ Your task is to collect the following information from the user:
 - Google My Business Profile URL (if available)
 - Suggested general keywords to target
 - Brand Colors (if existing)
+- URL of website to use as an example or template  
 
 Use the AskUserQuestion tool to collect this information interactively.
 
@@ -243,6 +244,7 @@ Create all required files in: /home/groot/projects/wsagent/client-website/
 
 Ensure:
 - Proper file structure
+- Visual Design of UI should replicate the example website provided in step 1
 - All pages with SEO-optimized content
 - Title tags and meta descriptions
 - Internal linking structure

@@ -1,818 +1,402 @@
-# Website Creation Prompt: Able Plumbing Inc.
-**Business:** Able Plumbing, Inc. | **Location:** Clearwater, FL | **Website:** plumbersnearmefl.com
+# WEBSITE CREATION PROMPT: PLUMBSIMPLE
+
+**Business:** Plumbsimple | **Phone:** (727) 766-5421 | **Location:** Redington Beach, FL
+**Service Model:** 24/7 Emergency Plumbing for Beach Communities
 
 ---
 
-## 1. Site Structure & Page Hierarchy
+## 1. SITE STRUCTURE - TIER 1 PAGES (15 PAGES)
 
-### Primary Navigation
+### Core Pages (4)
+1. **Homepage** - Primary: emergency plumber Redington Beach, 24/7 plumber Redington Beach
+2. **About Us** - Team, 24/7 availability explanation, local commitment
+3. **Contact Us** - Multiple contact methods, service area map, emergency hotline
+4. **Service Areas Overview** - All beach communities served with quick links
+
+### Service Pages (6)
+5. **24/7 Emergency Plumbing** - Burst pipes, flooding, emergency response
+6. **Water Heater Repair & Installation** - Traditional, tankless, emergency no hot water
+7. **Drain Cleaning & Sewer Services** - Clogs, hydro jetting, camera inspection, sewer repair
+8. **Leak Detection & Pipe Repair** - Electronic detection, burst pipes, slab leaks, repiping
+9. **Toilet Repair & Installation** - Running toilets, clogs, gurgling, replacement
+10. **Faucet & Sink Repair** - Kitchen/bathroom sinks, dripping faucets, installations
+
+### Location Pages (5)
+11. **Plumber Redington Beach** (Primary)
+12. **Plumber North Redington Beach**
+13. **Plumber Redington Shores**
+14. **Plumber Madeira Beach**
+15. **Plumber Treasure Island**
+
+---
+
+## 2. DESIGN REPLICATION - FRIENDSPLUMBING.COM
+
+### Visual Elements to Replicate
+
+**Color Scheme:**
+- Primary Red: #DC143C (emergency CTAs, urgent messaging)
+- Deep Navy Blue: #003366 (headings, navigation, secondary CTAs)
+- Bright Blue: #0066CC (links, icons, service cards)
+- White: #FFFFFF (main background)
+- Dark Charcoal: #2C2C2C (body text)
+- Light Blue-Gray: #F0F4F8 (section backgrounds)
+
+**Layout Patterns:**
+- Clean, professional service-focused design
+- Hero section with background image + dual CTAs
+- 3-column service card grid (1-column mobile)
+- Full-width emergency callout section (red background)
+- Sticky header with phone number
+- Sidebar with emergency contact card (sticky)
+- Mobile sticky bottom bar: [Call] [Text] [Email]
+
+**Typography:**
+- System fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif
+- H1: 40px bold, Navy Blue
+- H2: 32px bold, Navy Blue
+- Body: 15-16px, Charcoal, line-height 1.6
+- CTAs: 16px bold, white on Red/Blue
+
+**CTA Style:**
+- Primary (Emergency): Red background, white text, "CALL NOW (727) 766-5421"
+- Secondary (Schedule): Navy Blue background, white text, "Schedule Service"
+- Minimum 44px height for mobile
+- Hover effects: darker shade
+
+**Trust Signal Placement:**
+- Hero: ⭐⭐⭐⭐⭐ Rated 4.9/5 | Licensed & Insured | Available 24/7
+- Sidebar: Emergency contact card, review highlights
+- Footer: License numbers, professional associations
+
+**Navigation Structure:**
 ```
-Home
-├── Services (Dropdown)
-│   ├── Emergency Plumbing (24/7)
-│   ├── Residential Plumbing
-│   ├── Commercial Plumbing
-│   ├── Water Heater Services
-│   ├── Leak Detection & Repair
-│   └── Drain & Sewer Services
-├── Service Areas
-├── About Us
-├── Reviews
-└── Contact
+PLUMBSIMPLE LOGO | SERVICES ▼ | EMERGENCY 24/7 | SERVICE AREAS ▼ | ABOUT | CONTACT | (727) 766-5421
 ```
 
-### Complete Page List with Primary Keywords
-
-**Tier 1: Critical Pages (Create First)**
-1. `/` - Homepage → "plumber Clearwater FL"
-2. `/emergency-plumber-clearwater-fl/` → "emergency plumber Clearwater FL 24/7"
-3. `/leak-detection-repair-clearwater-fl/` → "leak detection and repair Clearwater FL"
-4. `/24-hour-plumber-clearwater-fl/` → "24 hour plumber Clearwater FL"
-5. `/water-heater-repair-clearwater-fl/` → "water heater repair Clearwater Florida"
-6. `/tankless-water-heater-installation-clearwater-fl/` → "tankless water heater installation Clearwater FL"
-7. `/drain-cleaning-clearwater-fl/` → "drain cleaning Clearwater FL"
-8. `/bathroom-plumbing-clearwater-fl/` → "bathroom plumbing Clearwater FL"
-9. `/kitchen-plumbing-clearwater-fl/` → "kitchen plumbing Clearwater FL"
-10. `/gas-line-installation-repair-clearwater-fl/` → "gas line repair Clearwater Florida"
-
-**Tier 2: High Priority Service Pages**
-11. `/sewer-line-repair-clearwater-fl/` → "sewer line repair Clearwater Florida"
-12. `/commercial-plumbing-clearwater-fl/` → "commercial plumbing Clearwater Florida"
-13. `/residential-plumbing-clearwater-fl/` → "residential plumbing Clearwater FL"
-14. `/pipe-burst-repair-clearwater-fl/` → "pipe burst repair Clearwater"
-15. `/hydro-jetting-clearwater-fl/` → "hydro jetting Clearwater FL"
-16. `/trenchless-sewer-repair-clearwater-fl/` → "trenchless sewer repair Clearwater"
-17. `/toilet-repair-clearwater-fl/` → "toilet repair Clearwater Florida"
-18. `/water-heater-installation-clearwater-fl/` → "water heater installation Clearwater FL"
-19. `/slab-leak-detection-clearwater-fl/` → "slab leak detection Clearwater"
-20. `/video-pipe-inspection-clearwater-fl/` → "video pipe inspection Clearwater"
-
-**Tier 3: Supporting Pages**
-21. `/garbage-disposal-repair-clearwater-fl/` → "garbage disposal repair Clearwater"
-22. `/backflow-prevention-testing-clearwater-fl/` → "backflow prevention testing Clearwater FL"
-23. `/faucet-repair-clearwater-fl/` → "faucet repair Clearwater FL"
-24. `/water-leak-repair-clearwater-fl/` → "water leak repair Clearwater"
-25. `/pool-leak-detection-clearwater-fl/` → "pool leak detection Clearwater FL"
-
-**Service Area Pages**
-26. `/plumber-pinellas-county-fl/` → "plumber Pinellas County FL"
-27. `/plumber-tampa-bay-area/` → "plumber Tampa Bay area"
-28. `/service-areas/` → Landing page listing 60+ municipalities
-
-**Essential Support Pages**
-29. `/about/` → Company history, licenses (CFC026561), BuildZoom score
-30. `/contact/` → NAP, service area map, emergency contact
-31. `/reviews/` → Customer testimonials, 5-star reviews
-32. `/financing/` → Financing options
-33. `/blog/` → SEO content hub
+**Responsive Breakpoints:**
+- Desktop: 922px+ (3-column grid, full navigation)
+- Tablet: 544-921px (2-column grid)
+- Mobile: <544px (single column, hamburger menu, sticky call button)
 
 ---
 
-## 2. Top 20 Priority Keywords → Page Mapping
+## 3. TOP 20 PRIORITY KEYWORDS → PAGE MAPPING
 
-| Rank | Keyword | Competition | Page URL | Intent |
-|------|---------|-------------|----------|--------|
-| 1 | tankless water heater installation Clearwater FL | Low | `/tankless-water-heater-installation-clearwater-fl/` | Very High |
-| 2 | gas line repair Clearwater Florida | Low | `/gas-line-installation-repair-clearwater-fl/` | Very High |
-| 3 | trenchless sewer repair Clearwater | Low | `/trenchless-sewer-repair-clearwater-fl/` | High |
-| 4 | hydro jetting Clearwater FL | Low | `/hydro-jetting-clearwater-fl/` | High |
-| 11 | emergency plumber Clearwater FL 24/7 | Low-Mod | `/emergency-plumber-clearwater-fl/` | Very High |
-| 12 | water heater repair Clearwater Florida | Low-Mod | `/water-heater-repair-clearwater-fl/` | High |
-| 13 | leak detection and repair Clearwater FL | Low-Mod | `/leak-detection-repair-clearwater-fl/` | High |
-| 14 | drain cleaning Clearwater FL | Low-Mod | `/drain-cleaning-clearwater-fl/` | High |
-| 15 | sewer line repair Clearwater Florida | Low-Mod | `/sewer-line-repair-clearwater-fl/` | High |
-| 16 | pipe burst repair Clearwater | Low-Mod | `/pipe-burst-repair-clearwater-fl/` | Very High |
-| 18 | toilet repair Clearwater Florida | Low-Mod | `/toilet-repair-clearwater-fl/` | Medium-High |
-| 19 | bathroom plumbing Clearwater FL | Low-Mod | `/bathroom-plumbing-clearwater-fl/` | Medium |
-| 20 | kitchen plumbing Clearwater FL | Low-Mod | `/kitchen-plumbing-clearwater-fl/` | Medium |
-| 21 | 24 hour plumber Clearwater FL | Moderate | `/24-hour-plumber-clearwater-fl/` | Very High |
-| 22 | emergency plumbing Clearwater Florida | Moderate | `/emergency-plumber-clearwater-fl/` | Very High |
-| 23 | plumbing repair Clearwater FL | Moderate | Homepage + `/residential-plumbing-clearwater-fl/` | High |
-| 26 | commercial plumbing Clearwater Florida | Moderate | `/commercial-plumbing-clearwater-fl/` | High |
-| 31 | plumber Clearwater FL | Mod-High | Homepage | Medium-High |
-| 33 | Clearwater plumber | Mod-High | Homepage | Medium-High |
-| 41 | plumbers near me Clearwater FL | High | Homepage + GMB optimization | High |
+| Rank | Keyword | KD | Page | Monthly Searches |
+|------|---------|----|----- |------------------|
+| 1 | emergency plumber Redington Beach | 20 | Homepage + Emergency Service | 200-300 |
+| 2 | 24/7 plumber Redington Beach | 20 | Homepage | 150-200 |
+| 3 | plumber Redington Beach | 15 | Homepage + Location | 400-600 |
+| 4 | water heater repair Redington Beach | 18 | Water Heater Service | 80-120 |
+| 5 | drain cleaning Redington Beach | 19 | Drain & Sewer Service | 100-150 |
+| 6 | leak detection Redington Beach | 19 | Leak Detection Service | 60-90 |
+| 7 | emergency plumber near me | 47 | Homepage (geo-targeted) | 500-800 |
+| 8 | plumber North Redington Beach | 15 | Location Page | 80-120 |
+| 9 | plumber Madeira Beach FL | 23 | Location Page | 150-200 |
+| 10 | same day plumber Redington Beach | 23 | Emergency Service | 40-60 |
+| 11 | toilet repair Redington Beach | 20 | Toilet Service | 60-80 |
+| 12 | faucet repair Redington Beach | 20 | Faucet & Sink Service | 50-70 |
+| 13 | plumber Redington Shores | 18 | Location Page | 70-100 |
+| 14 | plumber Treasure Island FL | 23 | Location Page | 120-160 |
+| 15 | burst pipe repair Redington Beach | 25 | Leak Detection Service | 30-50 |
+| 16 | emergency water heater repair Redington Beach | 24 | Water Heater Service | 40-60 |
+| 17 | sewer line repair Redington Beach | 22 | Drain & Sewer Service | 50-70 |
+| 18 | garbage disposal repair Redington Beach | 21 | Faucet & Sink Service | 30-50 |
+| 19 | water line repair Redington Beach | 22 | Leak Detection Service | 40-60 |
+| 20 | 24 hour plumber Redington Beach | 20 | Homepage + Emergency | 100-150 |
+
+**Total Estimated Traffic from Top 20:** 2,660-3,990 monthly searches
 
 ---
 
-## 3. Brand Implementation
+## 4. BRAND ELEMENTS
 
-### Visual Design
-**Brand Colors:**
-- **Red** - Emergency CTAs, urgent messaging
-- **White** - Background, clean sections
-- **Blue (#1e73be)** - Primary buttons, links, headers
-- **Cyan (#00aeef)** - Secondary accents, modern tech features
-
-**Design Direction:**
-- Professional, clean, trustworthy aesthetic
-- Patriotic red/white/blue reinforces local, family-owned positioning
-- High contrast for emergency CTAs
-- Mobile-first responsive design
-
-### Core Brand Values (Integrate Throughout)
-1. **Integrity First** - No-commission technicians, transparent pricing
-2. **24/7 Accessibility** - Emphasize round-the-clock availability on every page
-3. **Local Family Values** - "Treats customers like family," 24+ years serving Tampa Bay
-4. **Technical Excellence** - Advanced technology (infrared leak detection, hydro jetting)
-5. **Business Continuity** - For commercial: minimal downtime emphasis
-
-### Unique Value Propositions (Feature Prominently)
-- **24/7 Emergency Service** - Available 365 days/year
-- **No-Commission Technicians** - Paid hourly, not by sales
-- **24+ Years Experience** - Serving Tampa Bay since licensed in 1983
-- **BuildZoom Score: 97** - Top 18% of 191,428 FL contractors
-- **Licensed & Certified** - CFC026561 (Plumbing), CBC1265498 (Construction)
-- **Service Area** - 60+ municipalities, 3 counties, "Not afraid to travel"
-- **Prestigious Clients** - Clearwater Marine Aquarium, USF, Westshore Mall
+### Core Identity
+- **Positioning:** 24/7 Emergency Plumbing Specialists for Beach Communities
+- **Differentiators:** Always available, beach property expertise, hyper-local focus, rapid response
+- **Target Audience:** Beach homeowners, vacation rental owners, property managers
 
 ### Brand Voice
-- Approachable yet professional
-- Reassuring and confident
-- Educational and transparent
-- Customer-centric (not sales-focused)
+- **Tone:** Reassuring, local, expert, responsive, transparent
+- **Style:** Professional yet approachable, calm confidence in emergencies
+- **Example:** "Burst Pipe? We're Here 24/7. Call Now: (727) 766-5421"
+
+### Visual Identity
+- **Colors:** Red/White/Blue (patriotic, trustworthy, emergency urgency)
+- **Red Usage:** Emergency CTAs, urgent messaging, 24/7 availability
+- **Blue Usage:** Trust signals, navigation, secondary CTAs, water association
+- **White Usage:** Clean backgrounds, clarity, professionalism
+
+### Key Messaging Pillars
+1. **Always Available:** 24/7/365 emergency response, same-day service
+2. **Beach Expertise:** Coastal property specialists, salt air/high water table knowledge
+3. **Local Trust:** Redington Beach based, community members, upfront pricing
+4. **Professional Excellence:** Licensed/insured, quality workmanship, comprehensive services
+5. **Rapid Response:** Minutes away, fully stocked trucks, immediate help
 
 ---
 
-## 4. Essential SEO Requirements
+## 5. ESSENTIAL SEO
 
-### Title Tag Template
-**Format:** `[Service] [City] FL | [Benefit/Modifier] | Able Plumbing`
-
-**Examples:**
-- Homepage: `Plumber Clearwater FL | 24/7 Emergency Plumbing Services | Able Plumbing Inc`
-- Service: `Emergency Plumber Clearwater FL | Same-Day 24/7 Service | Able Plumbing`
-- Location: `Water Heater Repair Clearwater FL | Installation & Replacement | Able Plumbing`
-
-**Max Length:** 60 characters (truncation prevention)
+### Title Templates
+```
+Homepage: "24/7 Emergency Plumber Redington Beach FL | Plumbsimple"
+Service: "[Service] Redington Beach | 24/7 Emergency [Service] | Plumbsimple"
+Location: "Plumber [City] FL | 24/7 Emergency Plumbing | Plumbsimple"
+```
 
 ### Meta Description Template
-**Format:** 150-160 characters including:
-- Primary keyword
-- Clearwater FL location
-- Key benefit (24/7, licensed, etc.)
-- Call to action
-- Phone number: (727) 330-2733
-
-**Example:** `Emergency plumber Clearwater FL available 24/7. Licensed, no-commission technicians. Burst pipes, leaks, drains. Call (727) 330-2733 now!`
-
-### Header Tag Hierarchy
-**H1:** `[Service Name] - Clearwater, Florida` (ONE per page)
-- Example: `24/7 Emergency Plumbing Services - Clearwater, Florida`
-
-**H2:** Service categories, key benefits, service areas
-**H3:** Specific services, FAQs, sub-sections
-
-### NAP Consistency (Use Everywhere)
 ```
-Able Plumbing, Inc.
-14445 US Hwy 19 N, Suite B
-Clearwater, FL 33764
-(727) 330-2733
+"[Service/Location keyword]. Plumbsimple offers 24/7 emergency plumbing services. Licensed, insured, local beach community experts. Call (727) 766-5421 now."
 ```
 
-**Business Hours:** 24 hours a day, 7 days a week
+### NAP Consistency (Every Page)
+```
+Plumbsimple
+Redington Beach, FL and Beach Communities
+(727) 766-5421
+Hours: 24/7/365 (Always Open)
+```
 
-### Schema Markup Requirements
-
-**1. LocalBusiness Schema (All Pages)**
+### Schema Basics (JSON-LD)
+**LocalBusiness Schema:**
 ```json
 {
   "@type": "Plumber",
-  "name": "Able Plumbing, Inc.",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "14445 US Hwy 19 N, Suite B",
-    "addressLocality": "Clearwater",
-    "addressRegion": "FL",
-    "postalCode": "33764"
-  },
-  "telephone": "(727) 330-2733",
-  "openingHours": "Mo-Su 00:00-24:00",
-  "priceRange": "$$",
-  "url": "https://plumbersnearmefl.com",
-  "areaServed": ["Pinellas County", "Hillsborough County", "Pasco County"]
+  "name": "Plumbsimple",
+  "telephone": "(727) 766-5421",
+  "address": {"@type": "PostalAddress", "addressLocality": "Redington Beach", "addressRegion": "FL"},
+  "openingHours": "Mo-Su 00:00-23:59",
+  "areaServed": ["Redington Beach", "North Redington Beach", "Madeira Beach", "Treasure Island", "St Pete Beach"],
+  "priceRange": "$$"
 }
 ```
 
-**2. Service Schema (Service Pages)**
-```json
-{
-  "@type": "Service",
-  "serviceType": "[Service Name]",
-  "provider": "Able Plumbing, Inc.",
-  "areaServed": "Clearwater, FL",
-  "availableChannel": {
-    "@type": "ServiceChannel",
-    "servicePhone": "(727) 330-2733",
-    "availableLanguage": "English"
-  }
-}
-```
+**Service Schema:** Add for each service page with service type, areaServed, provider
+**Review Schema:** Aggregate rating display in search results
+**FAQ Schema:** For informational content sections
 
-**3. FAQPage Schema (FAQ Sections)**
-- Add to service pages with Q&A content
-- Enhances search result visibility
-
-**4. Review/Rating Schema (Reviews Page)**
-- Aggregate rating display
-- Individual review markup
+### On-Page SEO Essentials
+- H1: Include primary keyword + location (once per page)
+- H2/H3: Include secondary keywords naturally
+- First paragraph: Primary keyword within first 100 words
+- Image alt text: Descriptive with location/service keywords
+- URL structure: /service-name/ and /location-name/
+- Internal linking: Link between service and location pages
+- Footer: Full service list + all location links
 
 ---
 
-## 5. Critical Missing Pages (Top 10 from GAP Analysis)
+## 6. PAGE REQUIREMENTS - TIER 1 PAGES
 
-### Page Creation Priority Order
+### Homepage
+**Primary Keyword:** emergency plumber Redington Beach
+**Hero:** Beach home background, "24/7 Emergency Plumber Redington Beach - Your Local Beach Community Experts", dual CTAs (red emergency call, blue schedule)
+**Content Sections:** (1) Emergency services overview with urgent messaging, (2) 6 core services in card grid with icons, (3) Why Choose Plumbsimple - 4 pillars (24/7, beach expertise, local, professional), (4) Service areas map/list, (5) Google reviews testimonials, (6) Emergency availability emphasis, (7) Final conversion CTA
+**Sidebar:** Emergency contact card (sticky), trust badges, review highlight
+**Trust Signals:** 5-star rating, Licensed & Insured, 24/7 badge above fold
 
-**1. Emergency Plumber Clearwater FL**
-- **URL:** `/emergency-plumber-clearwater-fl/`
-- **Primary Keyword:** emergency plumber Clearwater FL 24/7
-- **Content Focus:**
-  - 24/7/365 availability (hero statement)
-  - Common emergencies: burst pipes, sewer backups, gas leaks, no hot water
-  - Same-day emergency response guarantee
-  - Emergency contact: (727) 330-2733 - click-to-call prominent
-  - After-hours, weekend, holiday service
-  - Upfront emergency pricing
-- **CTAs:** "Call Now (727) 330-2733", "Request Emergency Service"
-- **Trust Signals:** 24+ years, licensed CFC026561, BuildZoom 97 score
+### About Us
+**Focus:** Build trust, explain team, emphasize local ownership and beach community connection
+**Content:** Company story with local angle, 24/7 availability explanation, team photos/bios, beach property expertise narrative, licensing/insurance/certifications, service commitment/guarantees, community involvement, why we're different (4 pillars)
+**Trust Elements:** Team photos, credentials, years of experience, local landmarks
 
-**2. Leak Detection & Repair Clearwater FL**
-- **URL:** `/leak-detection-repair-clearwater-fl/`
-- **Primary Keyword:** leak detection and repair Clearwater FL (client-provided)
-- **Content Focus:**
-  - Advanced technology: infrared, sonic, camera inspection
-  - Slab leak detection
-  - Underground leak detection
-  - High water bill leak investigation
-  - Pool leak detection
-  - Emergency leak repair 24/7
-- **Services Included:** Detection + repair (clarify both)
-- **Technology Emphasis:** Modern diagnostic tools
+### Contact Us
+**Elements:** Multiple contact methods - phone (prominent), email form, text option, live chat widget; service area map with all communities listed; emergency hotline callout; office location (if applicable); response time expectations; embedded Google Map
+**CTA:** Primary red emergency call button, secondary form submission
 
-**3. Tankless Water Heater Installation Clearwater FL**
-- **URL:** `/tankless-water-heater-installation-clearwater-fl/`
-- **Primary Keyword:** tankless water heater installation Clearwater FL (EASIEST to rank)
-- **Content Focus:**
-  - Benefits: energy efficiency, endless hot water, space savings
-  - Brands installed: Rinnai, Rheem, Navien
-  - Installation process & timeline
-  - Cost savings vs traditional tank
-  - Sizing consultation
-  - Repair & maintenance available
-- **Conversion Element:** Free consultation offer
+### Service Areas Overview
+**Purpose:** Hub page linking to all location pages
+**Content:** Interactive map of service area, list of all communities served (15+ links), brief description of beach community focus, response time messaging, beach property challenges overview
+**Structure:** Primary beach communities (Tier 1) featured prominently, extended service areas listed below
 
-**4. Gas Line Installation & Repair Clearwater FL**
-- **URL:** `/gas-line-installation-repair-clearwater-fl/`
-- **Primary Keyword:** gas line repair Clearwater Florida
-- **Content Focus:**
-  - Licensed gas line services (CFC026561)
-  - Residential & commercial gas lines
-  - Gas leak detection & emergency repair
-  - Generator gas line installation
-  - Appliance hookups: water heaters, stoves, dryers
-  - Pressure testing & safety inspections
-- **Safety Emphasis:** Emergency gas leak response 24/7
-- **License Highlight:** Certified technicians
+### 24/7 Emergency Plumbing Services
+**Primary Keywords:** emergency plumber Redington Beach, 24 hour plumber, 24/7 plumber
+**Hero:** RED background section - "PLUMBING EMERGENCY? WE'RE HERE 24/7" with large call button
+**Content:** Emergency situations we handle (burst pipes, flooding, no hot water, sewer backups, gas leaks), response time guarantees, 24/7/365 availability explanation, what to expect when you call, fully stocked trucks, why emergencies can't wait, service area emergency coverage
+**CTAs:** Multiple emergency call buttons (red) throughout page
+**Urgency:** Emphasize immediate response, always available, no extra charges for nights/weekends
 
-**5. Bathroom Plumbing Clearwater FL**
-- **URL:** `/bathroom-plumbing-clearwater-fl/`
-- **Primary Keyword:** bathroom plumbing Clearwater FL (client-provided)
-- **Content Focus:**
-  - Toilet installation, repair, replacement
-  - Shower & bathtub plumbing
-  - Bathroom sinks & faucets
-  - Bathroom repiping
-  - Bathroom remodel plumbing
-  - Tub-to-shower conversions
-- **Internal Links:** Link to toilet repair, faucet repair pages
+### Water Heater Repair & Installation
+**Primary Keywords:** water heater repair Redington Beach, water heater installation, tankless water heater
+**Content:** Services offered (repair, replacement, installation, emergency no hot water), traditional tank vs. tankless comparison, sizing guidance for beach homes, common water heater issues in coastal properties (salt air corrosion), signs you need repair/replacement, emergency water heater service, maintenance tips, brands installed, warranty information
+**Structure:** H2 sections for each subservice, benefits lists, FAQ section, CTA after each section
 
-**6. Kitchen Plumbing Clearwater FL**
-- **URL:** `/kitchen-plumbing-clearwater-fl/`
-- **Primary Keyword:** kitchen plumbing Clearwater FL (client-provided)
-- **Content Focus:**
-  - Kitchen sink installation & repair
-  - Garbage disposal installation & repair
-  - Kitchen faucets
-  - Dishwasher hookup
-  - Kitchen drain cleaning
-  - Kitchen remodel plumbing
-- **Internal Links:** Link to garbage disposal, faucet repair, drain cleaning
+### Drain Cleaning & Sewer Services
+**Primary Keywords:** drain cleaning Redington Beach, sewer line repair, clogged drain
+**Content:** Drain cleaning services (kitchen, bathroom, main line), hydro jetting explanation with benefits, sewer camera inspection technology, sewer line repair/replacement, common drain issues in beach homes, emergency drain clearing, preventative maintenance, signs of sewer problems, when to call for help
+**Visuals:** Icons for different drain types, before/after imagery, camera inspection photos
 
-**7. 24 Hour Plumber Clearwater FL**
-- **URL:** `/24-hour-plumber-clearwater-fl/`
-- **Primary Keyword:** 24 hour plumber Clearwater FL
-- **Content Focus:**
-  - Same as emergency page but emphasize 24-hour availability
-  - Nights, weekends, holidays
-  - After-hours service
-  - No extra fees for off-hours (if applicable)
-- **Note:** May combine with emergency page or create as variant
+### Leak Detection & Pipe Repair
+**Primary Keywords:** leak detection Redington Beach, pipe repair, burst pipe repair
+**Content:** Electronic leak detection technology, slab leak detection (common in Florida), pipe repair vs. replacement guidance, burst pipe emergency response, water line repair, repiping services for older beach homes, signs of hidden leaks, water damage prevention, coastal property pipe challenges (high water tables, salt air)
+**Emergency Element:** Burst pipe emergency section with red CTA
 
-**8. Hydro Jetting Clearwater FL**
-- **URL:** `/hydro-jetting-clearwater-fl/`
-- **Primary Keyword:** hydro jetting Clearwater FL (EASIEST tier)
-- **Content Focus:**
-  - What is hydro jetting (explain technology)
-  - Benefits over traditional snaking
-  - Removes: tree roots, grease, scale, debris
-  - Commercial & residential applications
-  - Preventative maintenance
-- **Educational Angle:** Before/after scenarios
+### Toilet Repair & Installation
+**Primary Keywords:** toilet repair Redington Beach, toilet installation
+**Content:** Common toilet problems (running, clogging, gurgling, leaking), repair vs. replacement decision factors, toilet installation process, modern water-efficient models, emergency toilet service, DIY troubleshooting tips (with CTA to call for professional help), signs you need repair, warranty on installations
+**FAQ:** "Why does my toilet gurgle?" "Why won't my toilet stop running?" "How long does installation take?"
 
-**9. Trenchless Sewer Repair Clearwater FL**
-- **URL:** `/trenchless-sewer-repair-clearwater-fl/`
-- **Primary Keyword:** trenchless sewer repair Clearwater (EASIEST tier)
-- **Content Focus:**
-  - No-dig pipe replacement technology
-  - Pipe bursting method
-  - CIPP (Cured-In-Place Pipe) lining
-  - Benefits: less excavation, faster, minimal landscape damage
-  - Cost comparison vs traditional trenching
-- **Environmental Angle:** Eco-friendly, less property disruption
+### Faucet & Sink Repair
+**Primary Keywords:** faucet repair Redington Beach, kitchen sink repair, bathroom sink repair
+**Content:** Services offered (repair, replacement, installation), kitchen vs. bathroom considerations, dripping faucet fixes, sink repairs (leaks, clogs, drain issues), modern fixture options, faucet types and styles, when to repair vs. replace, installation process, garbage disposal repair/installation
+**Visuals:** Modern faucet styles, service examples
 
-**10. Commercial Plumbing Clearwater FL**
-- **URL:** `/commercial-plumbing-clearwater-fl/`
-- **Primary Keyword:** commercial plumbing Clearwater Florida
-- **Content Focus:**
-  - Business-critical messaging: "Your business is important"
-  - Minimal downtime guarantee
-  - 24/7 commercial emergency service
-  - Restaurant & hotel expertise
-  - High-rise systems
-  - Property management services
-  - Backflow testing & certification
-- **Trust Signals:** Clearwater Marine Aquarium, USF, Westshore Mall, Bay Star Restaurant Group
+### Location Page Template (All 5 Pages)
+**Primary Keyword:** plumber [City Name]
+**Hero:** "[City Name] Plumber - 24/7 Emergency Plumbing Services" with local beach image
+**Content Structure:**
+- Paragraph 1: "Serving [City Name] FL - Your local emergency plumbing specialists in [City Name] and nearby beach communities."
+- Paragraph 2: Beach community context - "[City Name] homes face unique plumbing challenges from salt air, coastal construction, and [local specifics]."
+- Full service list available in that area (all 6 core services)
+- 24/7 emergency availability emphasis with response time
+- Common plumbing issues in [City Name] homes (2-3 specific problems)
+- Why choose local Redington Beach based plumber for [City Name]
+- Embedded map showing [City Name] within service area
+- Emergency CTA section: "Need a Plumber in [City Name]? Call Now"
+**Local Elements:** Mention neighborhoods, landmarks, or property types specific to each city
+**Internal Links:** Link to all 6 service pages
 
 ---
 
-## 6. Technical SEO & Performance Requirements
+## 7. TECHNICAL MUST-HAVES
 
-### Mobile Responsiveness
-- **Mobile-first design** - 60%+ of plumbing searches are mobile
-- **Click-to-call buttons** prominent on all pages: `<a href="tel:+17273302733">`
-- **Touch-friendly** buttons (minimum 44px tap targets)
-- **Responsive images** with proper sizing
-- **Hamburger menu** for mobile navigation
+### Mobile-First Design
+- Responsive design: 922px+ desktop, 544-921px tablet, <544px mobile
+- Sticky mobile bottom bar: [Call Now] [Text Us] [Email]
+- Large tap-friendly buttons (44px+ height)
+- Click-to-call phone numbers (tel: links)
+- Simplified mobile navigation (hamburger menu)
+- Single column layout on mobile
+- 16px minimum font size
+- Fast mobile load time (<3 seconds)
 
-### Page Speed Optimization
-- **Target:** Google PageSpeed score 85+ (mobile & desktop)
-- **Image optimization:** WebP format, lazy loading, compressed
-- **Minify:** CSS, JavaScript, HTML
-- **Enable compression:** Gzip/Brotli
-- **Browser caching:** Leverage caching for static assets
-- **CDN:** Consider content delivery network for faster loading
+### Speed Optimization
+- System fonts (no web font loading delay)
+- Optimized images: WebP format, lazy loading, responsive srcset
+- Minified CSS/JS
+- Critical CSS inline
+- Defer non-critical JavaScript
+- CDN for static assets
+- Browser caching enabled
+- Target: <3 second load time, 90+ PageSpeed score
 
-### Image Guidelines
-- **Format:** WebP with JPG fallback
-- **Alt text:** Descriptive with location keywords
-  - Example: `"Emergency plumber repairing burst pipe in Clearwater FL home"`
-- **File naming:** `emergency-plumber-clearwater-fl.webp`
-- **Max file size:** 200KB for web images
-- **Dimensions:** Responsive with srcset for multiple sizes
+### Schema Implementation
+- LocalBusiness schema on homepage and contact page (all locations in areaServed)
+- Service schema on each service page
+- Review/AggregateRating schema for testimonials
+- FAQ schema on service pages with Q&A sections
+- BreadcrumbList schema for navigation
+- Organization schema with logo, social profiles
 
-### Internal Linking Strategy
-**Homepage Links:**
-- Link to all Tier 1 critical pages
-- Emergency plumbing link in hero section
-- Service category links in main content
-- Footer links to all primary services
+### Technical SEO
+- Semantic HTML5 structure
+- Clean URL structure: /service-name/, /location-name/
+- XML sitemap with all pages
+- Robots.txt properly configured
+- Canonical tags on all pages
+- Open Graph tags for social sharing
+- Twitter Card meta tags
+- 301 redirects if replacing existing site
+- SSL certificate (HTTPS)
+- Google Search Console setup
+- Google Analytics 4 setup
+- Google Business Profile linked
 
-**Service Page Cross-Linking:**
-- Link related services within content
-- Example: Leak detection page → links to slab leak, pool leak, water leak repair
-- Bathroom plumbing → toilet repair, faucet repair
-- Use contextual anchor text with keywords
+### Accessibility
+- ARIA labels for navigation and CTAs
+- Alt text on all images
+- Keyboard navigation support
+- Color contrast WCAG AA compliant
+- Focus indicators on interactive elements
+- Skip to main content link
+- Semantic heading hierarchy (H1 > H2 > H3)
 
-**Anchor Text Best Practices:**
-- Vary anchor text (avoid exact match repetition)
-- Use natural language with local modifiers
-- Example: "our 24/7 emergency plumbing services in Clearwater"
-
-### Sitemap.xml
-**Structure:**
-```xml
-- Homepage (priority: 1.0)
-- Tier 1 Service Pages (priority: 0.9)
-- Tier 2 Service Pages (priority: 0.8)
-- Location Pages (priority: 0.7)
-- Support Pages (priority: 0.6)
-- Blog Posts (priority: 0.5)
-```
-**Update frequency:** Weekly
-**Submit to:** Google Search Console, Bing Webmaster Tools
-
-### Robots.txt
-```
-User-agent: *
-Allow: /
-Disallow: /wp-admin/
-Disallow: /wp-includes/
-Sitemap: https://plumbersnearmefl.com/sitemap.xml
-```
-
-### SSL Certificate
-- **HTTPS required** for all pages
-- **Redirect:** HTTP → HTTPS (301 permanent)
-- **Security:** Valid SSL certificate (Let's Encrypt or commercial)
-
-### Google My Business Integration
-- **Embed Google Map** on contact page
-- **GMB posts** integration (if API available)
-- **Reviews widget** on homepage and reviews page
-- **Schema alignment** with GMB data (NAP, hours, services)
+### Conversion Tracking
+- Phone call tracking on emergency CTAs
+- Form submission tracking
+- Click tracking on primary CTAs
+- Event tracking for key user actions
+- Google Analytics goal setup
+- Heat mapping (Hotjar or similar)
 
 ---
 
-## 7. Conversion Optimization Elements
+## IMPLEMENTATION PRIORITY
 
-### Call-to-Action Hierarchy
+**Week 1-2: Core Setup + Homepage**
+- Site infrastructure, hosting, CMS setup
+- Homepage complete with all sections
+- Navigation and footer structure
+- Mobile responsive framework
+- Contact Us page
 
-**Primary CTA (Emergency):**
-- **Text:** "Call Now: (727) 330-2733"
-- **Placement:** Header (sticky), hero section, footer
-- **Style:** Red background, white text, large/prominent
-- **Mobile:** Click-to-call functionality
+**Week 3-4: Service Pages (6 pages)**
+- Emergency Plumbing Services
+- Water Heater Services
+- Drain & Sewer Services
+- Leak Detection & Pipe Repair
+- Toilet Services
+- Faucet & Sink Services
 
-**Secondary CTA:**
-- **Text:** "Request Service" or "Schedule Appointment"
-- **Placement:** End of service descriptions
-- **Style:** Blue button, contrasts with emergency CTA
-- **Form:** Name, phone, email, service needed, brief description
+**Week 5-6: Location Pages (5 pages) + About**
+- All 5 Tier 1 location pages
+- About Us page
+- Service Areas overview page
 
-**Tertiary CTA:**
-- **Text:** "Get Free Estimate"
-- **Placement:** Service pages for non-emergency services
-- **Style:** Outline button or text link
+**Week 7: Testing + Launch**
+- Technical SEO audit
+- Mobile testing all pages
+- Speed optimization
+- Schema validation
+- Call tracking setup
+- Google Search Console/Analytics
+- Soft launch
 
-### Trust Builders (Place on Every Page)
-
-**Header/Hero Section:**
-- 24/7 Emergency Service badge
-- Licensed & Insured (CFC026561)
-- 24+ Years Experience
-
-**Footer:**
-- BuildZoom Score: 97 (Top 18%)
-- Service Area: 60+ municipalities
-- Financing Available
-- Military & Senior Discounts
-
-**Service Pages:**
-- Customer testimonials (rotate 2-3 per page)
-- Photos of completed work
-- Certifications & licenses
-- No-commission technician mention
-
-### Lead Capture Forms
-
-**Required Fields (Keep Minimal):**
-- Name (First & Last)
-- Phone Number
-- Email
-- Service Needed (dropdown)
-- Brief Description (optional)
-- Preferred Contact Method
-
-**Form Placement:**
-- Contact page (primary)
-- Service pages (embedded after content)
-- Emergency pages (sidebar or bottom)
-
-**Confirmation:**
-- Thank you page with clear next steps
-- "We'll call you within [timeframe]"
-- Emergency number reminder
-
-### Emergency Service Pathways
-
-**Homepage Hero:**
-```
-24/7 Emergency Plumbing Services in Clearwater, FL
-[Large Red Button: Call Now (727) 330-2733]
-[Secondary: Request Emergency Service]
-```
-
-**Top Navigation:**
-- "Emergency Service" link (red, stands out)
-- Links directly to `/emergency-plumber-clearwater-fl/`
-
-**Every Page Header:**
-- Sticky header with emergency number
-- Never disappears on scroll
+**Post-Launch: Tier 2 Expansion (Phase 2)**
+- Additional service pages (10+)
+- Additional location pages (10+)
+- Blog content for informational keywords
+- Review collection system
+- Local link building
 
 ---
 
-## 8. Content Requirements by Page Type
+## SUCCESS METRICS
 
-### Homepage Content Blocks
+**Month 1 Goals:**
+- All 15 Tier 1 pages live and indexed
+- Mobile PageSpeed 90+
+- Rank top 20 for 5 primary keywords
+- 3+ keyword page 1 rankings (position 1-10)
 
-**Hero Section:**
-- H1: "Plumber Clearwater FL | 24/7 Emergency Plumbing Services"
-- Subheading: Trust statement (24+ years, licensed, BuildZoom 97)
-- Emergency CTA
-- Hero image: Plumber truck or technician
+**Month 3 Goals:**
+- Rank top 10 for 10 primary keywords
+- 500+ monthly organic visits
+- 5+ keyword page 1 rankings
 
-**Services Overview:**
-- 6-8 primary services with icons
-- Brief description (2-3 sentences each)
-- Links to dedicated service pages
-
-**Emergency Services Highlight:**
-- 24/7 availability emphasis
-- Common emergencies list
-- Urgent CTA
-
-**About Section:**
-- "Combining Yesterday's Integrity with Today's Technology"
-- Family-owned, local business
-- No-commission technicians
-- Service area coverage
-
-**Service Areas:**
-- "Serving 60+ municipalities across 3 counties"
-- List major cities: Clearwater, Tampa, St. Petersburg, Brandon, Largo, Dunedin
-- Link to full service area page
-
-**Testimonials:**
-- 3-5 rotating customer reviews
-- Include star ratings
-- Link to reviews page
-
-**Why Choose Able Plumbing:**
-- 24/7 Emergency Service
-- Licensed & Certified (CFC026561)
-- 24+ Years Experience
-- BuildZoom Score 97
-- No-Commission Technicians
-- Transparent Pricing
-- Military & Senior Discounts
-
-**FAQ Section:**
-- 5-8 common questions
-- Schema markup for FAQPage
-- Link to full FAQ page
-
-### Service Page Template
-
-**Structure (Apply to All Service Pages):**
-
-1. **Hero/Title Section:**
-   - H1: [Service Name] - Clearwater, Florida
-   - Brief introduction (2-3 sentences)
-   - Emergency CTA (if applicable)
-
-2. **Service Overview:**
-   - What the service includes
-   - Benefits to customer
-   - When you need this service
-
-3. **Specific Services Offered:**
-   - Bulleted list or grid
-   - 6-10 specific sub-services
-
-4. **Why Choose Able Plumbing:**
-   - Technology/methods used
-   - Technician expertise
-   - Customer benefits
-   - Trust signals
-
-5. **Service Process:**
-   - Step-by-step: Call → Diagnosis → Quote → Repair → Follow-up
-   - Set expectations for timeline
-
-6. **FAQ Section:**
-   - 5-7 service-specific questions
-   - Schema markup
-
-7. **Service Area:**
-   - "Serving Clearwater and surrounding areas"
-   - Link to service area page
-
-8. **Related Services:**
-   - 3-4 related service links
-   - Internal linking
-
-9. **CTA Section:**
-   - "Need [Service] in Clearwater? Call (727) 330-2733"
-   - Request service form
-
-10. **Customer Reviews:**
-    - 2-3 relevant testimonials
-
-**Minimum Word Count:** 1,000-1,500 words per service page
-
-### Location-Specific Content
-
-**Service Area Page:**
-- Map showing 3-county coverage
-- List of 60+ municipalities served
-- Organized by county:
-  - Pinellas County (17 cities)
-  - Hillsborough County (30+ cities)
-  - Pasco County (14 cities)
-- Brief description: "We're not afraid to travel"
-
-**Individual City Pages (if created):**
-- Focus on: Clearwater, Tampa, St. Petersburg, Brandon
-- Local content: city-specific plumbing issues
-- NAP with city in context
-- Link back to main service pages
+**Month 6 Goals:**
+- Rank top 5 for 15 primary keywords
+- 1,500+ monthly organic visits
+- 20+ keyword page 1 rankings
+- Dominate "plumber [beach community]" searches
 
 ---
 
-## 9. Local SEO Implementation Checklist
+## KEY REMINDERS
 
-### On-Page Local SEO
-- [ ] City name (Clearwater FL) in title tags
-- [ ] City name in H1 headers
-- [ ] City name in first 100 words of content
-- [ ] City name in meta descriptions
-- [ ] Service area mentions throughout content
-- [ ] Local landmarks/references where natural
-- [ ] NAP on every page (footer)
+1. **Every page must have:** Emergency CTA (red button with phone), 24/7 availability mention, beach community focus, NAP in footer, trust badges, mobile-friendly design
 
-### Schema Markup
-- [ ] LocalBusiness schema on all pages
-- [ ] Service schema on service pages
-- [ ] FAQPage schema where applicable
-- [ ] Review/Rating schema on reviews page
-- [ ] Organization schema with logo
+2. **Primary message hierarchy:** 24/7 Emergency → Beach Expertise → Local Trust → Professional Service
 
-### Google My Business Optimization
-- [ ] Complete all GMB profile fields
-- [ ] Accurate business hours (24/7)
-- [ ] All services listed in GMB
-- [ ] Service area defined (3 counties)
-- [ ] Weekly GMB posts (services, offers, updates)
-- [ ] High-quality photos (10+ images)
-- [ ] Respond to all reviews
-- [ ] GMB messaging enabled
+3. **Design reference:** Replicate Friend's Plumbing structure with Plumbsimple red/white/blue palette
 
-### Citation Building
-- [ ] Yelp listing (NAP consistent)
-- [ ] Angi (HomeAdvisor) profile
-- [ ] Better Business Bureau
-- [ ] YellowPages
-- [ ] Chamber of Commerce (Clearwater)
-- [ ] Industry directories (plumbing-specific)
-- [ ] Facebook Business Page
-- [ ] Verify NAP consistency across all platforms
+4. **Keyword strategy:** Target hyper-local beach community keywords (low KD) before broader city keywords (high KD)
 
-### Review Generation
-- [ ] Request review system (post-service emails)
-- [ ] Target: 50+ Google reviews
-- [ ] Maintain 4.5+ star average
-- [ ] Respond to 100% of reviews
-- [ ] Reviews page on website showcasing testimonials
+5. **Conversion focus:** Multiple CTAs per page, sticky elements, click-to-call prominence, emergency urgency balanced with trust building
 
 ---
 
-## 10. Post-Launch SEO Tasks
-
-### Week 1
-- Submit sitemap to Google Search Console
-- Submit sitemap to Bing Webmaster Tools
-- Verify Google My Business ownership
-- Set up Google Analytics 4
-- Set up conversion tracking (phone calls, form submissions)
-- Run technical SEO audit (Screaming Frog or similar)
-
-### Month 1
-- Begin blog content creation (2-4 posts/month)
-- Start GMB post schedule (weekly)
-- Monitor keyword rankings (baseline)
-- Fix any technical issues identified
-- Begin citation building
-- Request initial customer reviews
-
-### Ongoing
-- Monitor Google Search Console for errors
-- Track keyword ranking improvements
-- Analyze conversion rates by page
-- A/B test CTAs and forms
-- Update content based on performance
-- Build local backlinks
-- Continue review generation
-- Expand blog content library
-
----
-
-## 11. Key Performance Indicators (KPIs)
-
-**Track Monthly:**
-- Organic traffic (Google Analytics)
-- Keyword rankings (top 20 priorities)
-- Phone call conversions
-- Form submissions
-- GMB views and actions
-- Review quantity and average rating
-- Pages indexed (Search Console)
-- Page speed scores
-- Mobile usability errors
-
-**Success Metrics (6 Months):**
-- Rank in top 10 for 10+ priority keywords
-- 50+ Google reviews, 4.5+ stars
-- 30%+ increase in organic traffic
-- 5+ phone calls per week from organic search
-- Appear in local 3-pack for emergency/24-hour searches
-
----
-
-## 12. Brand Messaging Guidelines
-
-### Key Messages to Reinforce
-
-**Integrity & Transparency:**
-- "No-commission technicians focused on your needs, not sales"
-- "Transparent, upfront pricing with no hidden fees"
-- "Time and materials pricing - you pay for work done, not inflated flat rates"
-
-**Availability & Accessibility:**
-- "24/7/365 emergency service - we're always here when you need us"
-- "Same-day service available"
-- "Serving 60+ municipalities - we're not afraid to travel"
-
-**Experience & Credibility:**
-- "24+ years serving the Tampa Bay community"
-- "Licensed since 1983 (CFC026561)"
-- "BuildZoom Score 97 - Top 18% of Florida contractors"
-- "Trusted by Clearwater Marine Aquarium, USF, and major Tampa Bay businesses"
-
-**Technology & Quality:**
-- "Combining yesterday's integrity with today's technology"
-- "Advanced leak detection: infrared, sonic, camera inspection"
-- "Modern methods: hydro jetting, trenchless repair"
-- "Highly skilled, well-paid technicians"
-
-**Local & Family-Owned:**
-- "Locally owned and operated in Clearwater"
-- "We treat our customers like family"
-- "Proud member of the Tampa Bay community"
-
-### Tone Examples
-
-**Emergency Pages (Urgent, Reassuring):**
-"Plumbing emergency? Don't panic. Able Plumbing's 24/7 emergency team is standing by to help. Whether it's a burst pipe, sewer backup, or gas leak, our licensed technicians will respond quickly to minimize damage and restore your peace of mind. Call (727) 330-2733 now - we answer every call, every time."
-
-**Service Pages (Confident, Educational):**
-"Experiencing low water pressure or no hot water? Your water heater may need professional repair or replacement. Able Plumbing's certified technicians diagnose and repair all water heater brands, or can help you upgrade to a modern, energy-efficient tankless system. With 24+ years of experience and advanced diagnostic technology, we'll identify the problem quickly and provide honest recommendations."
-
-**About/Trust Pages (Warm, Professional):**
-"For over 24 years, Able Plumbing has served Tampa Bay families and businesses with integrity and excellence. As a locally owned company, we believe in treating every customer like family - which is why we pay our technicians by the hour, never by commission. This ensures your plumber's only focus is solving your problem right, not upselling services you don't need."
-
----
-
-## FINAL IMPLEMENTATION CHECKLIST
-
-### Phase 1: Foundation (Weeks 1-2)
-- [ ] Set up hosting, SSL, domain
-- [ ] Install CMS (WordPress recommended)
-- [ ] Implement responsive theme with red/white/blue colors
-- [ ] Create homepage with all essential sections
-- [ ] Build top 10 critical service pages
-- [ ] Add NAP to header/footer
-- [ ] Implement click-to-call functionality
-- [ ] Create contact page with map
-- [ ] Add LocalBusiness schema markup
-- [ ] Set up Google Analytics & Search Console
-
-### Phase 2: Content Expansion (Weeks 3-4)
-- [ ] Complete Tier 2 service pages (11-20)
-- [ ] Create About page with credentials
-- [ ] Build Reviews page with testimonials
-- [ ] Add service area page
-- [ ] Implement Service schema on all service pages
-- [ ] Create FAQPage schema for FAQ sections
-- [ ] Optimize all title tags and meta descriptions
-- [ ] Build internal linking structure
-- [ ] Add image alt text throughout
-
-### Phase 3: Technical SEO (Week 5)
-- [ ] Submit sitemap.xml
-- [ ] Configure robots.txt
-- [ ] Optimize page speed (target 85+ score)
-- [ ] Compress and optimize all images
-- [ ] Test mobile responsiveness on all devices
-- [ ] Fix any broken links
-- [ ] Verify schema markup (Google Rich Results Test)
-- [ ] Set up 301 redirects if replacing old site
-- [ ] Test all forms and CTAs
-
-### Phase 4: Local SEO & Launch (Week 6)
-- [ ] Optimize Google My Business profile
-- [ ] Verify NAP consistency across citations
-- [ ] Submit to key directories (Yelp, Angi, BBB)
-- [ ] Set up review request system
-- [ ] Launch site
-- [ ] Monitor Search Console for errors
-- [ ] Begin tracking keyword rankings
-- [ ] Start weekly GMB posts
-- [ ] Request initial customer reviews
-
----
-
-**END OF WEBSITE CREATION PROMPT**
-
-This prompt provides complete specifications for building an SEO-optimized website for Able Plumbing Inc. All requirements are based on comprehensive business research, keyword analysis, SEO GAP findings, and brand brief development from Steps 1-4 of the workflow.
+**Document Created:** January 7, 2026 | **Workflow Step:** 5 - Website Creation Prompt
+**Next Step:** Website development following this blueprint
